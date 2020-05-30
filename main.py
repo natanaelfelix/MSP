@@ -17,5 +17,6 @@ up.update(portasResult)
 up.update(serialResult)
 up.update(versionResult)
 info = json.dumps(up,ensure_ascii=False)
+print(info)
 
 
