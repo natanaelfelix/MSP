@@ -8,5 +8,5 @@ def host_name(hostes):
         predio = int(h[2][1] + h[2][2])
         rack = int(h[2][2] + h[2][3])
         posicao = int(h[3][0] + h[3][1])
-        host = {'País': pais, 'Estado': estado, 'tipo:': tipo, 'Prédio': predio, 'Rack' : rack, 'Posição': posicao}
-        return host
+        sw = {'Switch': {'name': hostname, 'location':{'Country': pais, 'State': estado}}}
+        return sw

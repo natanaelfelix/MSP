@@ -5,5 +5,5 @@ def qtd_ports(por):
         if port.isdigit():
             portas.append(port)
     qtd = int(portas[-2] + portas[-1])
-    po = {'Portas do Switch:': qtd}
+    po = {'Ports': qtd}
     return po

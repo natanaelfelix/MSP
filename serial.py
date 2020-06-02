@@ -2,5 +2,5 @@ def serial(seri):
     serial = seri
     s = serial.replace(":", " ").split()
     seri = s[-1]
-    serie = {'Numero de série:': seri}
+    serie = {'Sys_Serial_number': seri}
     return serie
