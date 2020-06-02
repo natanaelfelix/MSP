@@ -26,4 +26,4 @@ up.update(portasResult)
 info = json.dumps(up, ensure_ascii=False) #indent=4
 dados.write(info)
 dados.close()
-print(info)
+
