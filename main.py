@@ -5,7 +5,7 @@ import show_version
 import restart
 import model
 import json
-dados = open("Dados.txt", 'w')
+#dados = open("Dados.txt", 'w')
 hostes = "BRSA-SWA-3511-01"
 por = 'Model number                    : WS-C3560-24PS-E' #sh version | inc Model num
 seri = "System serial number            : CAT1037RJF7"
@@ -24,6 +24,6 @@ up.update(resetResult)
 up.update(serialResult)
 up.update(portasResult)
 info = json.dumps(up, ensure_ascii=False) #indent=4
-dados.write(info)
-dados.close()
+#dados.write(info)
+#dados.close()
 print(info)
