@@ -6,9 +6,9 @@ import restart
 import model
 import json
 #dados = open("Dados.txt", 'w')
-hostes = "BRSA-SWA-3511-01"
+hostes = ""
 por = 'Model number                    : WS-C3560-24PS-E' #sh version | inc Model num
-seri = "System serial number            : CAT1037RJF7"
+seri = "System serial number            : "
 versio = "uptime is 74 years, 40 weeks, 1 day, 19 hours, 59 minutes"
 reset = "System restarted at 04:16:12 gmt Sat Feb 29 2020"
 hostnameResult = hostname.host_name(hostes)
